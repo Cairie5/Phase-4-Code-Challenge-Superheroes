@@ -65,7 +65,7 @@ with app.app_context():
             hero_powers.append(hero_power)
 
         # Set the hero's powers using the relationship
-        hero.powers = [hero_power.power for hero_power in hero_powers]
+       
 
     db.session.commit()
 
